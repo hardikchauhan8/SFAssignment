@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/characterlistfragment"
-        android:name="com.example.sfassignment.view.CharacterSearchListFragment"
+        android:name="com.example.sfassignment.ui.view.CharacterSearchListFragment"
         android:label="fragment_character_search_list"
         tools:layout="@layout/fragment_character_search_list">
         <action
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/characterdetailFragment"
-        android:name="com.example.sfassignment.view.CharacterDetailFragment"
+        android:name="com.example.sfassignment.ui.view.CharacterDetailFragment"
         android:label="fragment_character_detail"
         tools:layout="@layout/fragment_character_detail" />
 </navigation>

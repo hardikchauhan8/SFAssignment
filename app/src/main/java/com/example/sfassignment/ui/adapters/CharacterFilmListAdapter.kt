@@ -1,11 +1,11 @@
-package com.example.sfassignment.adapters
+package com.example.sfassignment.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sfassignment.databinding.RowFilmListItemBinding
-import com.example.sfassignment.model.CharacterFilmResponse
+import com.example.sfassignment.data.model.CharacterFilmResponse
 
 class CharacterFilmListAdapter(
     private var filmList: List<CharacterFilmResponse?>?

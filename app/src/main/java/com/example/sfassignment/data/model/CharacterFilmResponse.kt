@@ -1,4 +1,4 @@
-package com.example.sfassignment.model
+package com.example.sfassignment.data.model
 
 import com.google.gson.annotations.SerializedName
 

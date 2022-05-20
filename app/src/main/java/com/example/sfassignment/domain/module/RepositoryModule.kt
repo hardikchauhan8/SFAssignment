@@ -1,8 +1,8 @@
-package com.example.sfassignment.module
+package com.example.sfassignment.domain.module
 
-import com.example.sfassignment.api.ApiDataSource
-import com.example.sfassignment.api.SWApi
-import com.example.sfassignment.repository.CharacterRepoImpl
+import com.example.sfassignment.data.api.ApiDataSource
+import com.example.sfassignment.data.api.SWApi
+import com.example.sfassignment.data.repository.CharacterRepoImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

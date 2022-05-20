@@ -1,8 +1,8 @@
-package com.example.sfassignment.module
+package com.example.sfassignment.domain.module
 
 import android.content.Context
 import com.example.sfassignment.SFAssignmentApplication
-import com.example.sfassignment.api.SWApi
+import com.example.sfassignment.data.api.SWApi
 import com.example.sfassignment.utils.ApiConstants
 import com.google.gson.GsonBuilder
 import dagger.Module

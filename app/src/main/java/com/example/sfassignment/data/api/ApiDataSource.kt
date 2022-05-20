@@ -1,8 +1,8 @@
-package com.example.sfassignment.api
+package com.example.sfassignment.data.api
 
-import com.example.sfassignment.model.CharacterDetailResponse
-import com.example.sfassignment.model.CharacterFilmResponse
-import com.example.sfassignment.model.CharacterSearchResponse
+import com.example.sfassignment.data.model.CharacterDetailResponse
+import com.example.sfassignment.data.model.CharacterFilmResponse
+import com.example.sfassignment.data.model.CharacterSearchResponse
 import com.example.sfassignment.utils.Result
 import javax.inject.Inject
 

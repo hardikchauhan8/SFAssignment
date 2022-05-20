@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">SFAssignment</string>
-    <string name="str_search">Search</string>
-    <string name="str_no_character_text">Search for your favorite StarWars Character.\nMay The Force Be With You!!!</string>
+    <string name="str_search">Search your favorite StarWars Character</string>
+    <string name="str_no_character_text">May The Force Be With You!!!</string>
 </resources>

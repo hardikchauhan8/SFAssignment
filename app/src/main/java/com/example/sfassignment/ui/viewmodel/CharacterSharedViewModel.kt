@@ -1,12 +1,12 @@
-package com.example.sfassignment.viewmodel
+package com.example.sfassignment.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.sfassignment.model.CharacterDetailResponse
-import com.example.sfassignment.model.CharacterFilmResponse
-import com.example.sfassignment.repository.CharacterRepoImpl
+import com.example.sfassignment.data.model.CharacterDetailResponse
+import com.example.sfassignment.data.model.CharacterFilmResponse
+import com.example.sfassignment.data.repository.CharacterRepoImpl
 import com.example.sfassignment.utils.Result
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel @Inject constructor(private val repository: CharacterRepoImpl) : ViewModel() {
+class CharacterSharedViewModel @Inject constructor(private val repository: CharacterRepoImpl) : ViewModel() {
 
     private val characterList = MutableLiveData<List<CharacterDetailResponse?>?>()
     val characters: LiveData<List<CharacterDetailResponse?>?>

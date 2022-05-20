@@ -1,4 +1,4 @@
-package com.example.sfassignment.adapters
+package com.example.sfassignment.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,7 +8,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sfassignment.R
 import com.example.sfassignment.databinding.RowCharacterListItemBinding
-import com.example.sfassignment.model.CharacterDetailResponse
+import com.example.sfassignment.data.model.CharacterDetailResponse
 import com.example.sfassignment.utils.ApiConstants
 import com.example.sfassignment.utils.alien
 import com.example.sfassignment.utils.female

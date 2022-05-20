@@ -1,4 +1,4 @@
-package com.example.sfassignment.view
+package com.example.sfassignment.ui.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
