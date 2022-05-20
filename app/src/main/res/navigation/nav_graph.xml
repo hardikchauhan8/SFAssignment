@@ -15,7 +15,7 @@
             app:destination="@id/characterdetailFragment" />
         <argument
             android:name="characterList"
-            app:argType="com.example.sfassignment.model.CharacterSearchResponse[]" />
+            app:argType="com.example.sfassignment.data.model.CharacterSearchResponse[]" />
         <argument
             android:name="position"
             android:defaultValue="0"
